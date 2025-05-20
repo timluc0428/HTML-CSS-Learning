@@ -4,55 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
-    <title>Cats Galore</title>
+    <title>Google Home Page</title>
+	<link rel="stylesheet" href="styles.css"/>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<header>	
-		<h1>Cats Website</h1>  
-		<nav style="color: blue; background: yellow;">
-			<a href="#footer"> <p>footer</p></a>
-			<a href="https://www.google.com"><p>Google</p></a>
-		</nav>
-	
-	</header>
-	
-	<main>
-		<section>
-
-			<h2>Everything you should know about cats!</h2>
-
-			<p 
-			class="paragraph">Cats are my favorite animal on the face of the earth and so I am creating this website to commemorate their brilliance.</p>
-
-		</section>
-
-		<section>
-			<div id="first-div">
-				<img style="width: 100%" src="https://www.telegraph.co.uk/content/dam/world-news/2023/04/28/TELEMMGLPICT000333567568_trans_NvBQzQNjv4BqdqPzocoiJ9biB_7VitLjNvIP-Rm-MIVGBcVqvYyCxyA.jpeg?imwidth=960" alt="fat-cat-profile-img"/>
-
-			<a 
-				href="https://unsplash.com/s/photos/cat">
-				<p>Click here for more cat images</p>
-			</div>
+	<header>
+		<div class="nav-container">
+			<a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<p>About</p>
 			</a>
-			
-			<form>
-
-				<label>
-					<p> Cat breed </p>    
-					<input  placeholder="Enter the name of your favorite cat breed..."/>
-				</label>
-			</form>
-
-			<button>
-				<p>submit</p>
+			<a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<p>Store</p>
+			</a>
+		</div>
+		<nav class="nav-container nav-container-second">
+			<a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<p>Gmail</p>
+			</a>
+			<a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<p>Images</p>
+			</a>
+			<a class="icon-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<i class="fa-solid fa-flask"></i>
+			</a>
+			<a class="icon-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<i class="fa-solid fa-braille"></i></a>
+			<button class="img-button">
+				<img src="public\profile-picture.jpg" alt="profile-picture"/>
 			</button>
-		</section>
+		</nav>
+	</header>
+	<main>
+		<h1 class="title-text">Google</h1>	
+		<div class="input-bar" >
+			<i class="fa-solid fa-magnifying-glass"></i>
+			<input title="search" />
+			<div>
+			  <button class="input-icon">
+            <i class="fa-solid fa-microphone" ></i>
+        </button>
+			  <button class="input-icon">
+            <i class="fa-solid fa-camera-retro"></i>
+        </button>
+			</div>
+		</div>
+		<div class="button-grid">
+			<button><p>Google Search</p></button>
+			<button><p>I'm Feeling Lucky</p></button>
+		</div>
+    <p class="language-text">Google offered in: <a class="language-link">Maori</a> </p>
 	</main>
-	
-	<footer id="footer">
-		Copyright 2024
-	</footer>	
-    
+	<footer>
+			<div>
+        <p>New Zealand</p>
+      </div>
+      <hr />
+      <div class="footer-grid"> 
+        <div class="footer-links">
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>Advertising</p>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>Business</p>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>How Search works</p>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>Privacy</p>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>Terms</p>
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <p>Settings</p>
+          </a>
+        </div>
+      </div>
+      
+	</footer>
 </body>
 </html>
